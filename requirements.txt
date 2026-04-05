@@ -1,0 +1,13 @@
+# AURA Dependencies
+# Install with:  pip install -r requirements.txt
+
+SpeechRecognition==3.10.4
+pyttsx3==2.90
+wikipedia-api==0.6.0
+wikipedia==1.4.0
+Pillow==10.3.0
+requests==2.31.0
+pyaudio==0.2.14
+
+# Optional (for better audio on Linux):
+# python-pyaudio
