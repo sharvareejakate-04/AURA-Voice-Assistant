@@ -52,7 +52,7 @@ class WebFeatures:
     # ------------------------------------------------------------------
     def get_weather(self, city: str, api_key: str) -> str:
         """Fetch weather from OpenWeatherMap. Set your API key in config.py."""
-        if not api_key or api_key == "1ed89b17859e0cc2f61f39722cc2cac3":
+        if not api_key or api_key == "weather api key":
             return "Weather feature requires an OpenWeatherMap API key in config.py."
         try:
             import requests
@@ -78,7 +78,7 @@ class WebFeatures:
 
     def get_news(self, api_key: str, country: str = "us") -> str:
         """Fetch top headlines from NewsAPI. Set your API key in config.py."""
-        if not api_key or api_key == "d4726b634a3436c930b77b83dd9f5b3":
+        if not api_key or api_key == "news api key":
             return "News feature requires a NewsAPI key in config.py."
         try:
             import requests

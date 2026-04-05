@@ -19,11 +19,11 @@ NEWS:
 import os
 
 # ── Weather ───────────────────────────────────────────────────────────
-WEATHER_API_KEY = "1ed89b17859e0cc2f61f39722cc2cac3"
+WEATHER_API_KEY = "weather api key"
 DEFAULT_CITY    = "Mumbai"        # change to your city
 
 # ── News ──────────────────────────────────────────────────────────────
-NEWS_API_KEY = "d4726b634a3436c930b77b83dd9f5b3"
+NEWS_API_KEY = "news api key"
 NEWS_COUNTRY = "in"              # in=India, us=USA, gb=UK, au=Australia
 
 # ── Voice Settings ────────────────────────────────────────────────────
